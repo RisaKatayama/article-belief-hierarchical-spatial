@@ -9,7 +9,7 @@ library(bmsR)
 
 
 dat.dir = ''
-mres.dir = '/Users/katayama-r/Documents/TigerMaze/scripts/model'
+mres.dir = ''
 load(paste0(dat.dir,'data.RData'))
 cpalette = c('#bebebe','#ff9900','#99ff00','#ff3333','#3366ff')
 
