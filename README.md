@@ -24,3 +24,5 @@ _model_
 contains the scripts for fitting the inference models to the data (in _models_ subfolder), estimated parameters for each models (in _parameter_ subfolder) and the posterior distributions of the inference of the tiger door position and the grid location generated using the model.
 
 In _behavioural_ and _scanning_ subfolders, sX_Y_Z_res.mat files correspond the results of subject #X based on inference model Z.
+
+
