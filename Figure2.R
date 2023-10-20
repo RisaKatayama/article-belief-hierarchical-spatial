@@ -53,7 +53,7 @@ for (i in 1:ns){
 }
 
 ## Fig 2b ####
-dat = data.frame(prp=array(aperm(prp.lis.cfs,c(2,3,1))), cfs=factor(rep(c('tg','Tg','tG','TG'),level=c('tg','Tg','tG','TG'))))
+dat = data.frame(prp=array(aperm(prp.lis.cfs,c(2,3,1))), cfs=factor(rep(c('tg','Tg','tG','TG')),levels=c('tg','Tg','tG','TG')))
 dat = dat[!is.na(dat$prp),]
   
 fig2b = ggplot(data=dat, aes(x=cfs, y=prp, group=cfs)) +
